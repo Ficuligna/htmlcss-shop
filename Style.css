@@ -5,41 +5,54 @@
 }
 
 .Shopping{
-  width: 900px;
+
+  text-align: center;
+  /* width: 900px; */
   margin: auto;
-  border: solid 1px black;
+  /* border: solid 1px black; */
 }
 
 
 .riga{
   /* width: 625px; */
-  height: 300px;
+  /* height: 300px; */
   margin: auto;
-  border: solid 1px black;
+  /* border: solid 1px black; */
 }
 .shopitem{
   position: relative;
-  border: solid 1px black;
+  /* border: solid 1px black; */
   display: inline-block;
-  width: 33% ;
-  height: 300px;
+  /* width: 33% ; */
+  /* height: 300px; */
 
 }
 .sconto{
+  background-color: green;
   position: absolute;
   right: 0;
   top: 0;
 }
-.cuoricino{
-  position: absolute;
-  right: 50%;
-  top: 50%;
-  transform: translate(-50% , -50%);
+#migliorofferta{
+  background-color: red;
 }
 
-.tablet{
-  
+.cuore{
+  width: 50px;
+  height: 30px;
+}
+.cuoricino{
+  opacity: 0;
+  position: absolute;
+  bottom:0px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.shopitem:hover .cuoricino{
+  opacity: 1;
+}
+
 }
 #altrariga{
-  display: none;
 }
