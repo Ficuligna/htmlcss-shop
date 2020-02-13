@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Shopping{
+  width: 900px;
+  margin: auto;
+  border: solid 1px black;
+}
+
+
+.riga{
+  /* width: 625px; */
+  height: 300px;
+  margin: auto;
+  border: solid 1px black;
+}
+.shopitem{
+  position: relative;
+  border: solid 1px black;
+  display: inline-block;
+  width: 33% ;
+  height: 300px;
+
+}
+.sconto{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.cuoricino{
+  position: absolute;
+  right: 50%;
+  top:50%;
+  transform: translate(-50% , -50%);
+}
+#altrariga{
+  display: none;
+}
